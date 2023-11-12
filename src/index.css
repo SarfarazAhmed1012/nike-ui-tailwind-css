@@ -55,4 +55,7 @@
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+  .blue-gradient {
+    @apply bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 bg-clip-text text-transparent;
+  }
 }
